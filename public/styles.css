@@ -1,0 +1,16 @@
+/* 
+    #fafafa
+*/
+.read-only {
+  pointer-events: none;
+}
+
+.c-flex {
+  display: flex;
+}
+
+.img {
+  height: 70px;
+  width: 70px;
+  margin-top: 4rem;
+}

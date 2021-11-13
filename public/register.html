@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+<form id="form-register" action="register.html" method="POST">
+<div>
+    <label for="username">Name</label>
+    <input type="text" id="username" name="username" required>
+</div>
+<div>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+</div>
+<div>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" required>
+</div>
+<button type="submit">Register</button>
+</form>
+<p id="error"></p>
+<a href="login.html">Login</a>
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"
+      integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="register.js"></script>
+</body>
+</html>
