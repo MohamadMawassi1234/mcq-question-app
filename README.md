@@ -1,3 +1,4 @@
+Note: Project Incomplete<br />
 How to run:<br />
 1-After downloading, navigate with the command prompt to the folder, then type **npm install**.<br />
 2-Create a dotenv folder and fill it with the following:<br />
